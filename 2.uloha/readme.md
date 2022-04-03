@@ -1,0 +1,1 @@
+Pokud je maximum vetsi nez hodnota absolutni hodnoty minima ze seznamu, vrat true, jinak false.
