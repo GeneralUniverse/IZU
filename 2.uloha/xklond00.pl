@@ -10,12 +10,12 @@ lesser(A,B,C):-
     B<A,
     C is B.
 
-maximum([H],H):-!.
+maximum([H],H).
 maximum([H|T],X):-
     maximum(T,Y),
     greater(H,Y,X),!.
 
-minimum([H],H):-!.
+minimum([H],H).
 minimum([H|T],X):-
     minimum(T,Y),
     lesser(H,Y,X),!.
